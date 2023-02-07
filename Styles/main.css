@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;800&display=swap');
+
+/* RESET CSS */
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+/* HEADER */
+
+#header {
+    padding: 15px;
+    background-color: #ffffff;
+    min-width: 100%;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#open-sub-menu{
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+}
+
+#sub-menu{
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 153, 0);
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+#open-sub-menu:hover #sub-menu{
+    display: block;
+}
+
+.menu-item{
+    color: rgb(0, 153, 0);
+}
+
+.sub-menu-item{
+    color: #ffffff;
+}
+
+.sub-menu-item:hover{
+    color: #000000;
+}

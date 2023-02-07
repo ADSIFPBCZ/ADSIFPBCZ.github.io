@@ -26,9 +26,12 @@
     min-width: 100%;
 }
 
-#menu {
+.flex{
     display: flex;
     flex-direction: row;
+}
+
+#menu {
     justify-content: space-evenly;
 }
 
@@ -36,6 +39,7 @@
     cursor: pointer;
     position: relative;
     display: inline-block;
+    font-size: 0.8em;
 }
 
 #sub-menu{
@@ -53,12 +57,46 @@
 
 .menu-item{
     color: rgb(0, 153, 0);
+    font-size: 0.8em;
 }
 
 .sub-menu-item{
     color: #ffffff;
+    font-size: 0.8em;
 }
 
 .sub-menu-item:hover{
     color: #000000;
+}
+
+/* CORPO DO SITE */
+
+#body{
+    background-color: green;
+    height: 92.8vh;
+}
+
+#logo-body{
+    position: relative;
+    margin: 0 auto;
+    display: block;
+    width: 56%;
+}
+#if-logo-body{
+    position: absolute;
+    display: block;
+    margin-left: 27.5rem;
+    bottom: 0.8rem;
+}
+
+#vetor-esq{
+    position: absolute;
+    display: block;
+    top: 23.9rem;
+}
+
+#vetor-dir{
+    position: absolute;
+    left: 57.3rem;
+    bottom: 1rem;
 }

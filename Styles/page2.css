@@ -9,7 +9,7 @@ body{
     background-color: white;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .container a{
@@ -43,7 +43,7 @@ body{
     width: 30rem;
 }
 
-.logo_if{
-    display: flex;
-    justify-content: center;
+.logoif{
+   display: flex;
+   justify-content: center;
 }

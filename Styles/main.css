@@ -24,6 +24,8 @@
     padding: 15px;
     background-color: #ffffff;
     min-width: 100%;
+    position: absolute;
+    display: inline-block;
 }
 
 .flex{
@@ -73,30 +75,38 @@
 
 #body{
     background-color: green;
-    height: 92.8vh;
+    height: 100vh;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#logos {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+
 }
 
 #logo-body{
     position: relative;
-    margin: 0 auto;
-    display: block;
     width: 56%;
 }
 #if-logo-body{
     position: absolute;
     display: block;
-    margin-left: 27.5rem;
-    bottom: 0.8rem;
 }
 
 #vetor-esq{
     position: absolute;
-    display: block;
-    top: 23.9rem;
+    align-content: flex-end;
+    bottom: 1px;
 }
 
 #vetor-dir{
+    width: 7%;
     position: absolute;
-    left: 57.3rem;
-    bottom: 1rem;
+    right: 1px;
+    top: 20%;
 }

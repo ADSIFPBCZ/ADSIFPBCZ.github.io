@@ -3,10 +3,11 @@
 /* RESET CSS */
 *,
 *::after,
-*::before{
+*::before {
     box-sizing: border-box;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -28,7 +29,7 @@
     display: inline-block;
 }
 
-.flex{
+.flex {
     display: flex;
     flex-direction: row;
 }
@@ -37,12 +38,47 @@
     justify-content: space-evenly;
 }
 
-.menu-item{
+.menu-item {
     color: rgb(0, 153, 0);
     font-size: 0.8em;
 }
 
-#body{
+#body {
     background-color: green;
     height: 100vh;
+}
+
+#botoes {
+    top: 30%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15%;
+    align-items: center;
+}
+
+#botoes a{
+    padding: 110px 30px 110px 30px;
+    background-color: white;
+    color:rgb(0, 153, 0);
+    font-size: 4em;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+#logos {
+    top: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    align-items: center;
+
+}
+
+#if-logo-body{
+    position: absolute;
+    display: block;
+    width: 120px;
 }

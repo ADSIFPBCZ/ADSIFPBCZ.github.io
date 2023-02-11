@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;800&display=swap');
+
+/* RESET CSS */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+/* HEADER */
+
+#header {
+    padding: 15px;
+    background-color: #ffffff;
+    min-width: 100%;
+    position: fixed;
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+#menu {
+    justify-content: space-evenly;
+}
+
+.menu-item {
+    color: rgb(0, 153, 0);
+    font-size: 0.8em;
+}
+
+#body {
+    background-color: green;
+    height: 100vh;
+}
+
+#texto {
+    top: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15%;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#texto p{
+    color:white;
+    text-align: center;
+    padding-bottom: 2em;
+    font-weight: bolder;
+}
+
+#tipos li{
+    list-style-type: upper-roman;
+    color: white;
+    text-align: justify;
+    padding-bottom: 1em;
+}
+
+#logos {
+    top: 40%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    align-items: center;
+
+}
+
+#if-logo-body{
+    position: absolute;
+    display: block;
+    width: 120px;
+}

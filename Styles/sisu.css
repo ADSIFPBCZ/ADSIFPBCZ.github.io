@@ -28,47 +28,19 @@
     display: inline-block;
 }
 
-.flex{
+.flex {
     display: flex;
     flex-direction: row;
 }
 
 #menu {
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 15em;
 }
 
-#open-sub-menu{
-    cursor: pointer;
-    position: relative;
-    display: inline-block;
-    font-size: 0.8em;
-}
-
-#sub-menu{
-    display: none;
-    position: absolute;
-    background-color: rgb(0, 153, 0);
-    min-width: 160px;
-    padding: 12px 16px;
-    z-index: 1;
-}
-
-#open-sub-menu:hover #sub-menu{
-    display: block;
-}
-
-.menu-item{
+.menu-item {
     color: rgb(0, 153, 0);
     font-size: 0.8em;
-}
-
-.sub-menu-item{
-    color: #ffffff;
-    font-size: 0.8em;
-}
-
-.sub-menu-item:hover{
-    color: #000000;
 }
 
 /* CORPO DO SITE */
@@ -116,7 +88,6 @@
 
 #if-logo-body{
     position: absolute;
-    t;
 }
 
 #vetor-esq{
